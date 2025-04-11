@@ -177,3 +177,7 @@ main {
 .section-two > div:nth-child(even) {
   flex-direction: row-reverse;
 }
+
+.section-two{
+  margin-bottom: 150px;
+}
