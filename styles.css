@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 3000px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  border-bottom: solid;
+  border-color: rgb(226, 225, 225);
+  border-width: 2px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+
+nav img {
+  height: 42px;
+  padding-right: 50px;
+}
+
+nav button {
+  border: none;
+  background-color: white;
+  color: rgb(185, 176, 176);
+  font-family: M PLUS Rounded 1c;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  transition: color 0.2 ease;
+  cursor: pointer;
+}
+
+nav button:hover {
+  color: rgb(218, 211, 211);
+}
+
+main {
+  margin-top: 70px;
+}
+
+.section-one{
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+
+.upper-section img {
+  height: 500px;
+}
+
+.section-one-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-one-heading{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: rgb(75, 75, 75);
+  font-size: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+.one-button-one {
+  width: 350px;
+  height: 45px;
+  background-color: rgb(88, 204, 2);
+  color: white;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 0 rgb(71, 156, 0);
+  margin-bottom: 15px;
+  margin-top: 50px;
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+}
+
+.one-button-one:hover {
+  background-color: rgb(132, 226, 2);
+  box-shadow: 0 4px 0 rgb(71, 156, 0); 
+}
+
+.one-button-two{
+  width: 350px;
+  height: 46px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(120, 154, 233);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: solid 2px rgb(223, 217, 217);
+  box-shadow: 0 2px 0 rgb(223, 217, 217);
+  margin-bottom: 15px;
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+}
+
+.one-button-two:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.lower-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: solid 2px rgb(223, 217, 217);
+  border-top: solid 2px rgb(223, 217, 217);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 45px;
+}
+
+.lower-section p {
+  margin: 0 5px;
+  color: rgb(108, 108, 108);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
