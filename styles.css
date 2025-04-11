@@ -79,7 +79,7 @@ main {
   text-align: center;
 }
 
-.one-button-one {
+.one-button-one, footer button {
   width: 350px;
   height: 45px;
   background-color: rgb(88, 204, 2);
@@ -96,7 +96,7 @@ main {
   cursor: pointer;
 }
 
-.one-button-one:hover {
+.one-button-one:hover, footer button:hover {
   background-color: rgb(132, 226, 2);
   box-shadow: 0 4px 0 rgb(71, 156, 0); 
 }
@@ -191,6 +191,13 @@ footer {
 footer h1 {
   color: rgb(88, 204, 2);
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 900;
+  width: 550px;
+  text-align: center;
 }
+
+footer img {
+  width: 100%;
+}
+
