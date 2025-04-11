@@ -131,6 +131,7 @@ main {
   padding-top: 25px;
   padding-bottom: 25px;
   margin-top: 45px;
+  margin-bottom: 150px;
 }
 
 .lower-section p {
@@ -147,4 +148,32 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.section-two > div div {
+  width: 500px;
+}
+
+.section-two h1{
+  color: rgb(88, 204, 2);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.section-two p {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: rgb(108, 108, 108);
+  font-weight: 900;
+}
+
+.section-two img {
+  width: 400px;
+}
+
+.section-two > div:nth-child(even) {
+  flex-direction: row-reverse;
 }
